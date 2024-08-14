@@ -1,0 +1,14 @@
+# refer to https://rust-lang.github.io/rustfmt/
+
+edition = "2021"
+format_strings = true
+wrap_comments = true
+comment_width = 100
+max_width = 100
+reorder_imports = true
+reorder_modules = true
+reorder_impl_items = true
+newline_style = "Unix"
+error_on_unformatted = true
+use_field_init_shorthand = true
+imports_granularity = "Module"
